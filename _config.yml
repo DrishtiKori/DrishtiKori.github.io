@@ -1,5 +1,4 @@
 title: Drishti Kori
 description: Data Science
 show_downloads: true
-google_analytics:
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
