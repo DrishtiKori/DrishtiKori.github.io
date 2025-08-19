@@ -1,13 +1,13 @@
 # Data Science
 
-# CONTACT
+### CONTACT
 
 -Mumbai India
 -Mobile: +91-9867480917
 -Email: drishtikori4@gmail.com
 -WWW: https://www.linkedin.com/in/drishti-kori
 
-## PROFESSIONAL SUMMARY
+### PROFESSIONAL SUMMARY
 
 Bachelor of Computer Applications student with hands-on experience in
 Python, SQL, Machine Learning, Tableau, and Power BI. Certified in Data
@@ -19,7 +19,7 @@ a challenging position in the area of Data Science, Machine Learning, Data
 Analysis & related fields where I can share my skills and expand my capabilities
 further in the pursuit of progressive career advancement.
 
-## EDUCATION
+### EDUCATION
 
 2025
 -Bachelor of Computer Applications
@@ -30,7 +30,7 @@ India
 -HSC
 Guru Nanak Khalsa College, Matunga
 
-### CERTIFICATIONS
+## CERTIFICATIONS
 
 1. Masters Program - Data Scientist :
 Simplilearn Certified in collaboration
@@ -45,7 +45,7 @@ with IBM - 2025
 -Generative AI & ChatGPT
 -Programming Essentials
 
-### PROJECTS
+## PROJECTS
 
 -Employee Turnover Analytics: Developed ML model predicting attrition using
 Python (pandas, NumPy, seaborn) and data visualization.
@@ -62,7 +62,7 @@ Python data analysis libraries.
 -ScienceQtech Employee Database Management: Designed and optimized
 SQL queries for data extraction and transformation for performance reviews.
 
-### TECHNICAL SKILLS
+## TECHNICAL SKILLS
 
  Python   Machine Learning 
  SQL   Tableau 
@@ -72,7 +72,7 @@ SQL queries for data extraction and transformation for performance reviews.
  Scikit-learn   Matplotlib 
  Seaborn
 
-## ADDITIONAL INFORMATION
+### ADDITIONAL INFORMATION
 
  Languages : English & Hindi.
  Soft Skills : Communication, Problem-Solving, Teamwork, Time
