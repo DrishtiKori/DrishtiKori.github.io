@@ -2,10 +2,10 @@
 
 ### CONTACT
 
--Mumbai India
--Mobile: +91-9867480917
--Email: drishtikori4@gmail.com
--WWW: https://www.linkedin.com/in/drishti-kori
+- Mumbai India
+- Mobile: +91-9867480917
+- Email: drishtikori4@gmail.com
+- WWW: https://www.linkedin.com/in/drishti-kori
 
 ### PROFESSIONAL SUMMARY
 
