@@ -6,54 +6,85 @@
   </a>
 </p>
 
----
+# 🌟 Drishti Kori | Data Science Portfolio  
 
-## 🚀 About Me  
-🎓 Bachelor of Computer Applications student passionate about **Data Science** and **Machine Learning**.  
-🔍 Skilled in **Python, SQL, Tableau, Power BI, and Generative AI**.  
-📊 I love turning **raw data into meaningful insights**.  
-🌱 Currently enhancing my expertise in **AI & Advanced Analytics**.  
+Welcome to my portfolio!  
+I am a **Bachelor of Computer Applications student** passionate about **Data Science, Machine Learning, and Generative AI**.  
+I specialize in turning raw data into actionable insights using modern tools and technologies. 🚀  
 
 ---
 
-## 🌐 Connect With Me  
-<p align="center">
-  <a href="mailto:drishtikori4@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/drishti-kori"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://drishtikori.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/></a>
-</p>
+## 📍 Contact Me  
+
+📍 Mumbai, India  
+📱 +91-9867480917  
+📧 [drishtikori4@gmail.com](mailto:drishtikori4@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/drishti-kori)  
 
 ---
 
-## 🛠️ Tech Stack  
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,git,github,mysql,sqlite,tensorflow,sklearn,tableau,powerbi" />
-</p>
+## 🧑‍💻 Professional Summary  
+
+I bring hands-on experience in **Python, SQL, Machine Learning, Tableau, and Power BI**.  
+Certified in **Data Science** and **Generative AI**, I have worked on projects involving data analysis, predictive modeling, and visualization.  
+
+💡 My strengths lie in:  
+- Building **predictive models**  
+- Delivering **data-driven insights**  
+- Applying **AI tools** to solve real-world problems  
+
+I aim to grow in the field of **Data Science, Machine Learning, and AI** while contributing to impactful projects.  
 
 ---
 
-## 📸 Preview of My Portfolio Website  
-<p align="center">
-  <a href="https://drishtikori.github.io/">
-    <img src="https://github.com/DrishtiKori/DrishtiKori.github.io/blob/main/preview.gif" alt="Website Preview" width="700px" />
-  </a>
-</p>
+## 🎓 Education  
+
+📌 **Bachelor of Computer Applications (2025)**  
+Tilak Maharashtra Vidyapeeth, Pune, India  
+
+📌 **HSC (2022)**  
+Guru Nanak Khalsa College, Matunga  
 
 ---
 
-## 📈 Profile Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DrishtiKori&show_icons=true&theme=radical" alt="GitHub Stats" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DrishtiKori&theme=radical" alt="Streak Stats" height="160"/>
-</p>
+## 🏆 Certifications  
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DrishtiKori&theme=dracula" alt="Activity Graph" />
-</p>
+✅ **Masters Program – Data Scientist** (Simplilearn + IBM, 2025)  
+✅ **Data Science with Python**  
+✅ **SQL Training**  
+✅ **Deloitte Australia – Data Analytics**  
+✅ **Essentials of Generative AI & ChatGPT**  
+✅ **Programming Essentials**  
 
 ---
 
-## 🎯 Visitor Counter  
-<p align="center">
-  <img src="https://profile-counter.glitch.me/DrishtiKori/count.svg" alt="Visitor Count" />
+## 📂 Projects  
+
+🔹 **Employee Turnover Analytics** – ML model predicting attrition (Python, Pandas, NumPy, Seaborn).  
+🔹 **Sales Analysis** – Sales trend analysis using Python (Matplotlib, Seaborn).  
+🔹 **ChatGPT-Based Interactive Storytelling** – AI-powered storytelling app.  
+🔹 **Zomato Dataset Analysis** – Insights into restaurant trends & patterns.  
+🔹 **Employee Database Management** – SQL queries for performance review insights.  
+
+---
+
+## 🛠️ Technical Skills  
+
+| Languages/Tools | Libraries & Frameworks | Visualization Tools |
+|-----------------|-------------------------|----------------------|
+| Python 🐍 | Pandas, NumPy, Scikit-learn | Tableau 📊 |
+| SQL 💾 | Django, HTML/CSS | Power BI 📈 |
+| Machine Learning 🤖 | Matplotlib, Seaborn | Generative AI ✨ |
+
+---
+
+## 🌐 Additional Information  
+
+🌍 **Languages**: English, Hindi  
+🤝 **Soft Skills**: Communication, Problem-Solving, Teamwork, Time Management, Adaptability, Leadership  
+
+---
+
+✨ *Thanks for visiting my portfolio! Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/drishti-kori) or drop me an email.*  
+/DrishtiKori/count.svg" alt="Visitor Count" />
 </p>
