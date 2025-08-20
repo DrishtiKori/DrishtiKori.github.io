@@ -1,79 +1,59 @@
-# Data Science
+<h1 align="center">✨ Welcome to My Portfolio ✨</h1>
 
-### CONTACT
+<p align="center">
+  <a href="https://drishtikori.github.io/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7007C&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Drishti+Kori;Data+Science+Enthusiast;Python+%7C+SQL+%7C+ML+%7C+Power+BI+%7C+Tableau;Welcome+to+my+Portfolio+Website!" alt="Typing Animation" />
+  </a>
+</p>
 
-- Mumbai India
-- Mobile: +91-9867480917
-- Email: drishtikori4@gmail.com
-- WWW: https://www.linkedin.com/in/drishti-kori
+---
 
-### PROFESSIONAL SUMMARY
+## 🚀 About Me  
+🎓 Bachelor of Computer Applications student passionate about **Data Science** and **Machine Learning**.  
+🔍 Skilled in **Python, SQL, Tableau, Power BI, and Generative AI**.  
+📊 I love turning **raw data into meaningful insights**.  
+🌱 Currently enhancing my expertise in **AI & Advanced Analytics**.  
 
-Bachelor of Computer Applications student with hands-on experience in
-Python, SQL, Machine Learning, Tableau, and Power BI. Certified in Data
-Science and Generative AI, with proven ability to analyze data, build predictive
-models, and deliver actionable insights. Have gained good exposure to
-understand various aspects of Data Science through a Masters Program, which
-has developed a great sense of confidence at a very personal level. Hence, I seek
-a challenging position in the area of Data Science, Machine Learning, Data
-Analysis & related fields where I can share my skills and expand my capabilities
-further in the pursuit of progressive career advancement.
+---
 
-### EDUCATION
+## 🌐 Connect With Me  
+<p align="center">
+  <a href="mailto:drishtikori4@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/drishti-kori"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://drishtikori.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/></a>
+</p>
 
-2025
--Bachelor of Computer Applications
-Tilak Maharashtra Vidyapeeth, Pune,
-India
+---
 
-2022
--HSC
-Guru Nanak Khalsa College, Matunga
+## 🛠️ Tech Stack  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,git,github,mysql,sqlite,tensorflow,sklearn,tableau,powerbi" />
+</p>
 
-## CERTIFICATIONS
+---
 
-1. Masters Program - Data Scientist :
-Simplilearn Certified in collaboration
-with IBM - 2025
+## 📸 Preview of My Portfolio Website  
+<p align="center">
+  <a href="https://drishtikori.github.io/">
+    <img src="https://github.com/DrishtiKori/DrishtiKori.github.io/blob/main/preview.gif" alt="Website Preview" width="700px" />
+  </a>
+</p>
 
-2. Other Certifications -
-   
--Data Science with Python
--SQL Training
--Deloitte Australia – Data Analytics
--Core: Essentials of Generative AI,
--Generative AI & ChatGPT
--Programming Essentials
+---
 
-## PROJECTS
+## 📈 Profile Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DrishtiKori&show_icons=true&theme=radical" alt="GitHub Stats" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DrishtiKori&theme=radical" alt="Streak Stats" height="160"/>
+</p>
 
--Employee Turnover Analytics: Developed ML model predicting attrition using
-Python (pandas, NumPy, seaborn) and data visualization.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DrishtiKori&theme=dracula" alt="Activity Graph" />
+</p>
 
--Sales Analysis: Performed sales trend analysis using Python libraries (numpy,
-pandas, matplotlib, seaborn).
+---
 
--ChatGPT-Based Interactive Storytelling: Created an AI-powered interactive
-storytelling application leveraging ChatGPT.
-
--Zomato Analysis: Analyzed Zomato dataset for patterns and trends using
-Python data analysis libraries.
-
--ScienceQtech Employee Database Management: Designed and optimized
-SQL queries for data extraction and transformation for performance reviews.
-
-## TECHNICAL SKILLS
-
- Python   Machine Learning 
- SQL   Tableau 
- Power BI   Django 
- HTML/CSS   Generative AI 
- Pandas   NumPy 
- Scikit-learn   Matplotlib 
- Seaborn
-
-### ADDITIONAL INFORMATION
-
- Languages : English & Hindi.
- Soft Skills : Communication, Problem-Solving, Teamwork, Time
-Management, Adaptability, Attention to detail, Leadership.
+## 🎯 Visitor Counter  
+<p align="center">
+  <img src="https://profile-counter.glitch.me/DrishtiKori/count.svg" alt="Visitor Count" />
+</p>
