@@ -6,7 +6,6 @@
   </a>
 </p>
 
-# 🌟 Drishti Kori 
 
 Welcome to my portfolio!  
 I am a **Bachelor of Computer Applications student** passionate about **Data Science, Machine Learning, and Generative AI**.  
