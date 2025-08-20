@@ -7,7 +7,6 @@
 </p>
 
 
-Welcome to my portfolio!  
 I am a **Bachelor of Computer Applications student** passionate about **Data Science, Machine Learning, and Generative AI**.  
 I specialize in turning raw data into actionable insights using modern tools and technologies. 🚀  
 
