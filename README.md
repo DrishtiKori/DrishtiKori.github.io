@@ -4,15 +4,6 @@
          alt="Typing Animation" />
   </a>
 </p>
-<img src="/assets/profile.jpg"
-     alt="Drishti Kori"
-     width="180"
-     style="border-radius:50%; display:block; margin:auto;" />
-
-<img src="/assets/profile.jpg" alt="Drishti Kori" class="circle-photo" />
-
-
-
 
 I am a **Bachelor of Computer Applications student** passionate about **Data Science, Machine Learning, and Generative AI**.  
 I specialize in turning raw data into actionable insights using modern tools and technologies. 🚀  
