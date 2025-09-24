@@ -4,6 +4,12 @@
          alt="Typing Animation" />
   </a>
 </p>
+<img src="/assets/profile.jpg"
+     alt="Drishti Kori"
+     width="180"
+     style="border-radius:50%; display:block; margin:auto;" />
+
+<img src="/assets/profile.jpg" alt="Drishti Kori" class="circle-photo" />
 
 
 
