@@ -82,5 +82,4 @@ Guru Nanak Khalsa College, Matunga
 ---
 
 ✨ *Thanks for visiting my portfolio! Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/drishti-kori) or drop me an email.*  
-/DrishtiKori/count.svg" alt="Visitor Count" />
 </p>
