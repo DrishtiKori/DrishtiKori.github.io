@@ -2,6 +2,6 @@ title: Drishti Kori
 description: Data Science
 logo: /assets/profile.jpg 
 show_downloads: true
-theme: minima
+theme: jekyll-theme-midnight
 dark_mode: true
 include: [assets/style.css]
