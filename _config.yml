@@ -3,6 +3,5 @@ description: Data Science
 logo: /assets/profile.jpg 
 show_downloads: true
 theme: jekyll-theme-minimal
-include:
-  - assets
+
 
