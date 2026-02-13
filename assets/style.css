@@ -1,8 +1,8 @@
-.circle-photo {
-  idth: 180px;
+header img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
   border-radius: 50%;
   display: block;
   margin: 20px auto;
-  border: 4px solid #ffffff;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
 }
