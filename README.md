@@ -1,11 +1,4 @@
-<p align="center">
-  <a href="https://drishtikori.github.io/">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7007C&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I%27m+Drishti+Kori;Data+Science+Enthusiast;Python+%7C+SQL+%7C+Machine+Learning+%7C+Tableau"
-      alt="Typing Animation"
-    />
-  </a>
-</p>
+<p align="center"> <a href="https://drishtikori.github.io/"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7007C&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I%27m+Drishti+Kori;Data+Science+Enthusiast;Python%20%7C%20SQL%20%7C%20ML%20%7C%20Tableau" alt="Typing Animation" /> </a> </p>
 
 <h3 align="center">Aspiring Data Scientist from Mumbai, India</h3>
 
