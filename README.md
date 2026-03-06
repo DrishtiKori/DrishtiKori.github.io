@@ -1,85 +1,134 @@
 <p align="center">
   <a href="https://drishtikori.github.io/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7007C&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I%27m+Drishti+Kori;Data+Science+Enthusiast;Python%20%7C%20SQL%20%7C%20ML%20%7C%20Tableau"
-         alt="Typing Animation" />
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F7007C&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I%27m+Drishti+Kori;Data+Science+Enthusiast;Python+%7C+SQL+%7C+Machine+Learning+%7C+Tableau"
+      alt="Typing Animation"
+    />
   </a>
 </p>
 
-I am a **Bachelor of Computer Applications student** passionate about **Data Science, Machine Learning, and Generative AI**.  
-I specialize in turning raw data into actionable insights using modern tools and technologies. 🚀  
+<h3 align="center">Aspiring Data Scientist from Mumbai, India</h3>
+
+<p align="center">
+  Passionate about Machine Learning, NLP, Data Analysis, and building recruiter-friendly portfolio projects.
+</p>   
+
+I am currently seeking **Data Science Internship / Junior Data Scientist opportunities** where I can apply my skills to real-world problems.
 
 ---
 
-## 📍 Contact Me  
+# 🛠️ Technical Skills
 
-📍 Mumbai, India  
-📱 +91-9867480917  
-📧 [drishtikori4@gmail.com](mailto:drishtikori4@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/drishti-kori)  
+### Programming
 
----
+Python, SQL, HTML, CSS
 
-## 🧑‍💻 Professional Summary  
+### Data Science & Machine Learning
 
-I bring hands-on experience in **Python, SQL, Machine Learning, Tableau, and Power BI**.  
-Certified in **Data Science** and **Generative AI**, I have worked on projects involving data analysis, predictive modeling, and visualization.  
+Pandas
+NumPy
+Scikit-learn
+Machine Learning
+Feature Engineering
+Model Evaluation
 
-💡 My strengths lie in:  
-- Building **predictive models**  
-- Delivering **data-driven insights**  
-- Applying **AI tools** to solve real-world problems  
+### Data Visualization
 
-I aim to grow in the field of **Data Science, Machine Learning, and AI** while contributing to impactful projects.  
+Tableau
+Matplotlib
+Seaborn
 
----
+### Tools & Technologies
 
-## 🎓 Education  
-
-📌 **Bachelor of Computer Applications (2025)**  
-Tilak Maharashtra Vidyapeeth, Pune, India  
-
-📌 **HSC (2022)**  
-Guru Nanak Khalsa College, Matunga  
+Git
+Jupyter Notebook
+Generative AI
 
 ---
 
-## 🏆 Certifications  
+# 🚀 Featured Projects
 
-✅ **Masters Program – Data Scientist** (Simplilearn + IBM, 2025)  
-✅ **Data Science with Python**  
-✅ **SQL Training**  
-✅ **Deloitte Australia – Data Analytics**  
-✅ **Essentials of Generative AI & ChatGPT**  
-✅ **Programming Essentials**  
+## 🏥 Personalized Healthcare Recommendation System
 
----
+A machine learning system that analyzes health indicators and generates personalized healthcare recommendations.
 
-## 📂 Projects  
+**Technologies:** Python, Pandas, Scikit-learn
 
-🔹 **Employee Turnover Analytics** – ML model predicting attrition (Python, Pandas, NumPy, Seaborn).  
-🔹 **Sales Analysis** – Sales trend analysis using Python (Matplotlib, Seaborn).  
-🔹 **ChatGPT-Based Interactive Storytelling** – AI-powered storytelling app.  
-🔹 **Zomato Dataset Analysis** – Insights into restaurant trends & patterns.  
-🔹 **Employee Database Management** – SQL queries for performance review insights.  
+GitHub:
+https://github.com/DrishtiKori/Personalized-Healthcare-Recommendation-System
 
 ---
 
-## 🛠️ Technical Skills  
+## 📱 Instagram Fake vs Genuine Account Detection
 
-| Languages/Tools | Libraries & Frameworks | Visualization Tools |
-|-----------------|-------------------------|----------------------|
-| Python 🐍 | Pandas, NumPy, Scikit-learn | Tableau 📊 |
-| SQL 💾 | Django, HTML/CSS | Power BI 📈 |
-| Machine Learning 🤖 | Matplotlib, Seaborn | Generative AI ✨ |
+A machine learning classification model that identifies fake Instagram accounts based on profile and engagement features.
 
----
+**Technologies:** Python, Machine Learning, Feature Engineering
 
-## 🌐 Additional Information  
-
-🌍 **Languages**: English, Hindi  
-🤝 **Soft Skills**: Communication, Problem-Solving, Teamwork, Time Management, Adaptability, Leadership  
+GitHub:
+https://github.com/DrishtiKori/Instagram-Fake-vs-Genuine-Account-Detection
 
 ---
 
-✨ *Thanks for visiting my portfolio! Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/drishti-kori) or drop me an email.*  
+## 🌍 Climate Change Comment Sentiment Modeling
 
+A Natural Language Processing project that classifies public comments about climate change into positive, neutral, and negative sentiments.
+
+**Technologies:** Python, NLP, TF-IDF, Scikit-learn
+
+GitHub:
+https://github.com/DrishtiKori/Climate-Change-Comment-Sentiment-Modeling
+
+---
+
+## 🚬 Tobacco Mortality Forecasting Using Machine Learning
+
+A predictive modeling project that forecasts smoking-related mortality trends using historical healthcare data.
+
+**Technologies:** Python, Machine Learning, Data Analysis
+
+GitHub:
+https://github.com/DrishtiKori/Tobacco-Mortality-Forecasting-Using-Machine-Learning
+
+---
+
+# 🎓 Education
+
+**Bachelor of Computer Applications (BCA)**
+Tilak Maharashtra Vidyapeeth, Pune
+Graduation Year: 2025
+CGPA: 8.07
+
+---
+
+# 📜 Certifications
+
+**Master's Program – Data Scientist**
+Simplilearn (in collaboration with IBM) – 2025
+
+Courses include:
+
+* Data Science with Python
+* SQL Training
+* Programming Essentials
+* Essentials of Generative AI
+* Prompt Engineering & ChatGPT
+
+**Deloitte Australia – Data Analytics Job Simulation**
+
+---
+
+# 📫 Connect With Me
+
+LinkedIn
+https://www.linkedin.com/in/drishti-kori  
+
+GitHub
+https://github.com/DrishtiKori  
+
+Email
+[drishtikori4@gmail.com](mailto:drishtikori4@gmail.com)  
+
+---
+
+⭐ If you find this portfolio helpful or interesting, feel free to explore my projects and connect with me!
