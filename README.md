@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h3 align="center">Aspiring Data Scientist | Mumbai, India 🇮🇳</h3>
+<h3 align="center">Aspiring Data Scientist | Mumbai, India</h3>
 
 <p align="center">
 Passionate about Data Science, Machine Learning, Data Analytics, and transforming data into actionable business insights through end-to-end analytical solutions.
@@ -69,6 +69,7 @@ Developed a machine learning model to classify Instagram accounts as fake or gen
 
 🔗 Repository:
 [Instagram Fake vs Genuine Account Detection](https://github.com/DrishtiKori/Instagram-Fake-vs-Genuine-Account-Detection)
+
 ---
 
 # 🎓 Education
