@@ -12,6 +12,30 @@ Passionate about Data Science, Machine Learning, Data Analytics, and transformin
 
 ---
 
+<p align="center">
+
+<a href="https://drishtikori.github.io/">
+<img src="https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+
+</a>
+
+<a href="https://github.com/DrishtiKori">
+<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
+
+</a>
+
+<a href="https://www.linkedin.com/in/drishti-kori">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+
+</a>
+
+<a href="mailto:drishtikori4@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+
+</a>
+
+</p>
+
 # 👩‍💻 About Me
 
 - 🎓 Bachelor of Computer Applications (BCA), Tilak Maharashtra Vidyapeeth (CGPA: **8.07**)
@@ -82,7 +106,7 @@ An end-to-end machine learning solution that analyzes demographic, lifestyle, cl
 **Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Streamlit, Tableau
 
 🔗 Repository:
-https://github.com/DrishtiKori/Personalized-Healthcare-Recommendation-System
+[Personalized Healthcare Recommendation](https://github.com/DrishtiKori/Personalized-Healthcare-Recommendation-System)
 
 ---
 
@@ -100,8 +124,7 @@ Developed a machine learning model to classify Instagram accounts as fake or gen
 **Tech Stack:** Python, Pandas, Scikit-learn, Random Forest
 
 🔗 Repository:
-https://github.com/DrishtiKori/Instagram-Fake-vs-Genuine-Account-Detection
-
+[Instagram Fake vs Genuine Account Detection](https://github.com/DrishtiKori/Instagram-Fake-vs-Genuine-Account-Detection)
 ---
 
 # 🎓 Education
@@ -141,41 +164,14 @@ To leverage my skills in Data Science, Machine Learning, SQL, and Data Visualiza
 
 # 📫 Connect With Me
 
-💼 **LinkedIn**  
-https://www.linkedin.com/in/drishti-kori
+💼 **LinkedIn:** [linkedin.com/in/drishti-kori](https://www.linkedin.com/in/drishti-kori)
 
-💻 **GitHub**  
-https://github.com/DrishtiKori
+💻 **GitHub:** [github.com/DrishtiKori](https://github.com/DrishtiKori)
 
-🌐 **Portfolio**  
-https://drishtikori.github.io/
+🌐 **Portfolio:** [drishtikori.github.io](https://drishtikori.github.io/)
 
-📧 **Email**  
-drishtikori4@gmail.com
+📧 **Email:** [drishtikori4@gmail.com](mailto:drishtikori4@gmail.com)
 
 ---
-<p align="center">
-
-<a href="https://drishtikori.github.io/">
-<img src="https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-
-</a>
-
-<a href="https://github.com/DrishtiKori">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
-</a>
-
-<a href="https://www.linkedin.com/in/drishti-kori">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-
-</a>
-
-<a href="mailto:drishtikori4@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-
-</a>
-
-</p>
 
 ⭐ Thank you for visiting my profile! Feel free to explore my repositories, provide feedback, or connect with me for collaborations and opportunities.
