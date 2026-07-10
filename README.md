@@ -30,7 +30,7 @@ Passionate about Data Science, Machine Learning, Data Analytics, and transformin
 | **Data Science & Machine Learning** | Pandas, NumPy, Scikit-learn, Machine Learning, Exploratory Data Analysis (EDA), Data Cleaning, Feature Engineering, Feature Selection, Model Evaluation, Classification, Logistic Regression, Random Forest, GridSearchCV, Stratified K-Fold Cross Validation, Predictive Analytics |
 | **Data Visualization** | Tableau, Matplotlib, Seaborn |
 | **Databases** | MySQL |
-| **Tools & Technologies** | Git, GitHub, Jupyter Notebook, Streamlit, Generative AI, Prompt Engineering |
+| **Tools & Technologies** | Git, GitHub, Jupyter Notebook, Generative AI, Prompt Engineering |
 
 ---
 
