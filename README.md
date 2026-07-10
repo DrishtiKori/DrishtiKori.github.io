@@ -12,30 +12,6 @@ Passionate about Data Science, Machine Learning, Data Analytics, and transformin
 
 ---
 
-<p align="center">
-
-<a href="https://drishtikori.github.io/">
-<img src="https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-
-</a>
-
-<a href="https://github.com/DrishtiKori">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
-</a>
-
-<a href="https://www.linkedin.com/in/drishti-kori">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-
-</a>
-
-<a href="mailto:drishtikori4@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-
-</a>
-
-</p>
-
 # 👩‍💻 About Me
 
 - 🎓 Bachelor of Computer Applications (BCA), Tilak Maharashtra Vidyapeeth (CGPA: **8.07**)
@@ -48,44 +24,13 @@ Passionate about Data Science, Machine Learning, Data Analytics, and transformin
 
 # 🛠️ Technical Skills
 
-### Programming Languages
-- Python
-- SQL
-- HTML
-- CSS
-
-### Data Science & Machine Learning
-- Pandas
-- NumPy
-- Scikit-learn
-- Machine Learning
-- Exploratory Data Analysis (EDA)
-- Data Cleaning
-- Feature Engineering
-- Feature Selection
-- Model Evaluation
-- Classification
-- Logistic Regression
-- Random Forest
-- GridSearchCV
-- Stratified K-Fold Cross Validation
-- Predictive Analytics
-
-### Data Visualization
-- Tableau
-- Matplotlib
-- Seaborn
-
-### Databases
-- MySQL
-
-### Tools & Technologies
-- Git
-- GitHub
-- Jupyter Notebook
-- Streamlit
-- Generative AI
-- Prompt Engineering
+| **Category** | **Skills** |
+|--------------|------------|
+| **Programming Languages** | Python, SQL, HTML, CSS |
+| **Data Science & Machine Learning** | Pandas, NumPy, Scikit-learn, Machine Learning, Exploratory Data Analysis (EDA), Data Cleaning, Feature Engineering, Feature Selection, Model Evaluation, Classification, Logistic Regression, Random Forest, GridSearchCV, Stratified K-Fold Cross Validation, Predictive Analytics |
+| **Data Visualization** | Tableau, Matplotlib, Seaborn |
+| **Databases** | MySQL |
+| **Tools & Technologies** | Git, GitHub, Jupyter Notebook, Streamlit, Generative AI, Prompt Engineering |
 
 ---
 
@@ -100,10 +45,9 @@ An end-to-end machine learning solution that analyzes demographic, lifestyle, cl
 - Compared Logistic Regression and Random Forest models
 - Optimized models using GridSearchCV with Stratified K-Fold Cross Validation
 - Achieved **90.25% Accuracy** and **89.75% Macro F1 Score**
-- Built an interactive Streamlit application
 - Developed Tableau dashboards for healthcare insights
 
-**Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Streamlit, Tableau
+**Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Tableau
 
 🔗 Repository:
 [Personalized Healthcare Recommendation](https://github.com/DrishtiKori/Personalized-Healthcare-Recommendation-System)
@@ -134,18 +78,15 @@ Developed a machine learning model to classify Instagram accounts as fake or gen
 **Tilak Maharashtra Vidyapeeth, Pune**
 
 - CGPA: **8.07**
-- Graduation Year: **2025**
+- Graduation Year: **2026**
 
 ---
 
 # 📜 Certifications
 
-### Master's Program in Data Science
+### Master's Program in Data Science Simplilearn (in collaboration with IBM) | **2025**
 
-**Simplilearn (in collaboration with IBM)** | **2025**
-
-Relevant Coursework
-
+Relevant Coursework:
 - Data Science with Python
 - SQL Training
 - Programming Essentials
@@ -167,8 +108,6 @@ To leverage my skills in Data Science, Machine Learning, SQL, and Data Visualiza
 💼 **LinkedIn:** [linkedin.com/in/drishti-kori](https://www.linkedin.com/in/drishti-kori)
 
 💻 **GitHub:** [github.com/DrishtiKori](https://github.com/DrishtiKori)
-
-🌐 **Portfolio:** [drishtikori.github.io](https://drishtikori.github.io/)
 
 📧 **Email:** [drishtikori4@gmail.com](mailto:drishtikori4@gmail.com)
 
