@@ -29,7 +29,7 @@ Passionate about Data Science, Machine Learning, Data Analytics, and transformin
 | **Programming Languages** | Python, SQL, HTML, CSS |
 | **Data Science & Machine Learning** | Pandas, NumPy, Scikit-learn, Machine Learning, Exploratory Data Analysis (EDA), Data Cleaning, Feature Engineering, Feature Selection, Model Evaluation, Classification, Logistic Regression, Random Forest, GridSearchCV, Stratified K-Fold Cross Validation, Predictive Analytics |
 | **Data Visualization** | Tableau, Matplotlib, Seaborn |
-| **Databases** | MySQL |
+| **Databases** | MySQL, Google BigQuery |
 | **Tools & Technologies** | Git, GitHub, Jupyter Notebook, Generative AI, Prompt Engineering |
 
 ---
@@ -51,6 +51,24 @@ An end-to-end machine learning solution that analyzes demographic, lifestyle, cl
 
 🔗 Repository:
 [Personalized Healthcare Recommendation](https://github.com/DrishtiKori/Personalized-Healthcare-Recommendation-System)
+
+---
+
+## 📦 E-Commerce Shipment Analytics (SQL / BigQuery)
+
+An end-to-end SQL analytics project in Google BigQuery, analyzing 10,999 e-commerce shipments to identify what drives late deliveries and customer satisfaction.
+
+### Highlights
+- Validated data quality (zero nulls/duplicates across all columns) before any analysis
+- Designed and built a star schema — surrogate-keyed dimension tables plus a validated fact table — instead of querying the flat file directly
+- Used CTEs, window functions (`RANK`, `NTILE`), and multi-table joins for business analysis
+- **Key finding:** warehouse location shows almost no variation in on-time delivery rate (58.6%–60.2% across all 5 blocks), ruling it out as a driver and redirecting investigation toward shipment mode and discount level
+- Built a dashboard-ready view for Tableau/Power BI consumption
+
+**Tech Stack:** Google BigQuery (SQL), star schema design, window functions
+
+🔗 Repository:
+[E-Commerce Shipment Analytics](https://github.com/DrishtiKori/ecommerce-shipment-analytics-bigquery)
 
 ---
 
