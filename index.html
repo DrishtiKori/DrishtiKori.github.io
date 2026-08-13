@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drishti Kori — Data Analytics & Data Science</title>
+<meta name="description" content="Drishti Kori — Data professional building tuned classification models and analytics warehouses. Python, SQL, Scikit-learn, BigQuery, Tableau.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F8F4;
+    --paper-alt:#F0F2EC;
+    --ink:#181C24;
+    --ink-soft:#4A5160;
+    --line:#DBDED3;
+    --teal:#2A6F6F;
+    --teal-deep:#1E5252;
+    --amber:#E8B54D;
+    --amber-ink:#7A5A12;
+    --card:#FFFFFF;
+    --radius:14px;
+    --maxw:1040px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3{
+    font-family:'Space Grotesk', sans-serif;
+    margin:0;
+    color:var(--ink);
+    letter-spacing:-0.01em;
+  }
+
+  .mono{ font-family:'IBM Plex Mono', monospace; }
+
+  a{ color:var(--teal-deep); }
+
+  ::selection{ background:var(--amber); color:var(--ink); }
+
+  :focus-visible{
+    outline:2px solid var(--teal);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  .wrap{
+    max-width:var(--maxw);
+    margin:0 auto;
+    padding:0 28px;
+  }
+
+  /* ---------- NAV ---------- */
+  header.site-nav{
+    position:sticky;
+    top:0;
+    z-index:50;
+    background:rgba(247,248,244,0.86);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:var(--maxw);
+    margin:0 auto;
+    padding:16px 28px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .logo{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:0.95rem;
+    color:var(--ink);
+    text-decoration:none;
+    white-space:nowrap;
+  }
+  .logo span{ color:var(--teal); }
+  nav.links{
+    display:flex;
+    gap:26px;
+  }
+  nav.links a{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.82rem;
+    color:var(--ink-soft);
+    text-decoration:none;
+    padding:4px 2px;
+    border-bottom:1px solid transparent;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  nav.links a:hover{ color:var(--teal-deep); border-color:var(--teal); }
+  .nav-cta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.8rem;
+    background:var(--ink);
+    color:var(--paper) !important;
+    padding:8px 14px;
+    border-radius:8px;
+    text-decoration:none;
+    white-space:nowrap;
+  }
+  .nav-cta:hover{ background:var(--teal-deep); }
+  .burger{ display:none; }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    padding:88px 0 72px;
+    overflow:hidden;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:34px 34px;
+    background-position:center -1px;
+    -webkit-mask-image:linear-gradient(to bottom, black 55%, transparent 100%);
+    mask-image:linear-gradient(to bottom, black 55%, transparent 100%);
+  }
+  .hero-inner{
+    max-width:var(--maxw);
+    margin:0 auto;
+    padding:0 28px;
+    -webkit-mask-image:none;
+  }
+  .console{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.92rem;
+    color:var(--teal-deep);
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:14px 18px;
+    display:inline-block;
+    box-shadow:0 1px 0 var(--line);
+    min-height:1.6em;
+  }
+  .console .prompt{ color:var(--ink-soft); }
+  .cursor{
+    display:inline-block;
+    width:8px;
+    height:1em;
+    background:var(--teal);
+    margin-left:2px;
+    vertical-align:-2px;
+    animation:blink 1s steps(1) infinite;
+  }
+  @keyframes blink{ 50%{ opacity:0; } }
+
+  .hero h1{
+    font-size:clamp(2.6rem, 7vw, 4.4rem);
+    line-height:0.98;
+    margin-top:26px;
+    opacity:0;
+    transform:translateY(10px);
+  }
+  .hero h1.reveal{
+    animation:riseIn .6s ease forwards;
+  }
+  @keyframes riseIn{ to{ opacity:1; transform:translateY(0); } }
+
+  .role-line{
+    margin-top:10px;
+    font-size:1.15rem;
+    color:var(--ink-soft);
+    font-weight:500;
+  }
+  .role-line .accent{ color:var(--teal-deep); font-weight:600; }
+
+  .lede{
+    margin-top:18px;
+    max-width:600px;
+    font-size:1.02rem;
+    color:var(--ink-soft);
+  }
+
+  .stat-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:26px;
+  }
+  .stat-chip{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.8rem;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:7px 14px;
+    color:var(--ink);
+  }
+  .stat-chip b{ color:var(--amber-ink); background:rgba(232,181,77,0.35); padding:0 3px; border-radius:3px; }
+
+  .cta-row{
+    margin-top:32px;
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:12px 22px;
+    border-radius:9px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:0.95rem;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn-primary{
+    background:var(--ink);
+    color:var(--paper);
+  }
+  .btn-primary:hover{ background:var(--teal-deep); transform:translateY(-2px); }
+  .btn-ghost{
+    background:transparent;
+    color:var(--ink);
+    border:1px solid var(--ink);
+  }
+  .btn-ghost:hover{ border-color:var(--teal-deep); color:var(--teal-deep); transform:translateY(-2px); }
+
+  /* ---------- SECTIONS ---------- */
+  section{ padding:76px 0; }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.82rem;
+    color:var(--teal-deep);
+    margin-bottom:10px;
+    display:block;
+  }
+  .eyebrow::before{ content:"-- "; color:var(--ink-soft); }
+  .section-title{
+    font-size:clamp(1.7rem, 3.4vw, 2.3rem);
+    margin-bottom:34px;
+  }
+
+  .reveal-el{
+    opacity:0;
+    transform:translateY(16px);
+    transition:opacity .55s ease, transform .55s ease;
+  }
+  .reveal-el.in{ opacity:1; transform:translateY(0); }
+
+  /* ---------- ABOUT ---------- */
+  .about-grid{
+    display:grid;
+    grid-template-columns:1.3fr 1fr;
+    gap:48px;
+    align-items:start;
+  }
+  .about-text p{
+    font-size:1.05rem;
+    color:var(--ink-soft);
+    margin:0 0 16px;
+  }
+  .about-text strong{ color:var(--ink); }
+  .facts{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 24px;
+  }
+  .facts dl{ margin:0; }
+  .facts .row{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    padding:10px 0;
+    border-bottom:1px solid var(--line);
+    font-size:0.92rem;
+  }
+  .facts .row:last-child{ border-bottom:none; }
+  .facts dt{ color:var(--ink-soft); font-family:'IBM Plex Mono', monospace; font-size:0.8rem; }
+  .facts dd{ margin:0; font-weight:600; text-align:right; }
+
+  /* ---------- PROJECTS ---------- */
+  .project-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 28px;
+    margin-bottom:20px;
+    position:relative;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .project-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 14px 30px -18px rgba(24,28,36,0.35);
+    border-color:var(--teal);
+  }
+  .project-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .project-title{
+    font-size:1.28rem;
+    font-weight:600;
+  }
+  .metric-badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.8rem;
+    font-weight:600;
+    background:rgba(232,181,77,0.28);
+    color:var(--amber-ink);
+    padding:6px 12px;
+    border-radius:999px;
+    white-space:nowrap;
+  }
+  .tech-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:12px 0 16px;
+  }
+  .tech-pill{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.74rem;
+    color:var(--teal-deep);
+    background:var(--paper-alt);
+    border:1px solid var(--line);
+    padding:4px 10px;
+    border-radius:6px;
+  }
+  .project-card ul{
+    margin:0;
+    padding-left:20px;
+    color:var(--ink-soft);
+  }
+  .project-card li{ margin-bottom:6px; font-size:0.96rem; }
+  .project-card li::marker{ color:var(--teal); }
+
+  /* ---------- SKILLS (schema tables) ---------- */
+  .schema-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:20px;
+  }
+  .schema-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .schema-head{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.85rem;
+    font-weight:600;
+    color:var(--paper);
+    background:var(--ink);
+    padding:11px 16px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .schema-head::before{
+    content:"⌗";
+    color:var(--amber);
+  }
+  .schema-rows{ padding:6px 0; }
+  .schema-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:9px 16px;
+    font-size:0.88rem;
+  }
+  .schema-row:nth-child(odd){ background:var(--paper-alt); }
+  .schema-row span.type{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.7rem;
+    color:var(--ink-soft);
+    opacity:0.75;
+  }
+
+  /* ---------- EDUCATION / CERT ---------- */
+  .timeline{
+    border-left:2px solid var(--line);
+    padding-left:28px;
+    display:flex;
+    flex-direction:column;
+    gap:26px;
+  }
+  .tl-item{ position:relative; }
+  .tl-item::before{
+    content:"";
+    position:absolute;
+    left:-34px;
+    top:5px;
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    background:var(--teal);
+    border:2px solid var(--paper);
+    box-shadow:0 0 0 2px var(--teal);
+  }
+  .tl-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.78rem;
+    color:var(--teal-deep);
+  }
+  .tl-title{ font-weight:600; margin-top:4px; font-size:1.05rem; }
+  .tl-sub{ color:var(--ink-soft); font-size:0.92rem; margin-top:2px; }
+  .tl-extra{ color:var(--ink-soft); font-size:0.9rem; margin-top:6px; }
+
+  /* ---------- CONTACT / FOOTER ---------- */
+  footer{
+    background:var(--ink);
+    color:var(--paper);
+    padding:64px 0 32px;
+  }
+  footer .eyebrow{ color:var(--amber); }
+  footer .eyebrow::before{ color:rgba(247,248,244,0.55); }
+  footer h2{ color:var(--paper); }
+  footer p{ color:rgba(247,248,244,0.72); max-width:520px; }
+  .contact-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    margin-top:28px;
+  }
+  .contact-links a{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.88rem;
+    color:var(--paper);
+    text-decoration:none;
+    border:1px solid rgba(247,248,244,0.28);
+    padding:11px 18px;
+    border-radius:9px;
+    transition:background .15s ease, border-color .15s ease;
+  }
+  .contact-links a:hover{ background:rgba(247,248,244,0.1); border-color:var(--amber); }
+  .foot-bottom{
+    margin-top:48px;
+    padding-top:20px;
+    border-top:1px solid rgba(247,248,244,0.16);
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.76rem;
+    color:rgba(247,248,244,0.5);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 760px){
+    nav.links{ display:none; }
+    .nav-inner{ padding:14px 20px; }
+    .about-grid{ grid-template-columns:1fr; }
+    .hero{ padding:64px 0 52px; }
+    section{ padding:56px 0; }
+    .wrap, .hero-inner{ padding:0 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">dk<span>@</span>portfolio<span>:~$</span></a>
+    <nav class="links">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#skills">skills</a>
+      <a href="#education">education</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a class="nav-cta" href="mailto:drishtikori4@gmail.com">Email me</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="console mono" id="console-line">
+        <span class="prompt">--&gt;</span> <span id="typed"></span><span class="cursor" id="cursor"></span>
+      </div>
+      <h1 id="hero-name">Drishti Kori</h1>
+      <p class="role-line">Data Analytics &amp; Data Science — <span class="accent">turning raw tables into decisions</span></p>
+      <p class="lede">I build classification models that hold up outside the notebook and warehouses that make executive reporting fast. Based in Mumbai, completed BCA in 2026, and shipping projects across the full stack — from feature engineering to star-schema design.</p>
+
+      <div class="stat-row">
+        <span class="stat-chip"><b>94.74%</b> F1 — fake account detector</span>
+        <span class="stat-chip"><b>90.25%</b> accuracy — healthcare ML</span>
+        <span class="stat-chip"><b>5-table</b> BigQuery warehouse — 10,999 records</span>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/drishti-kori/?skipRedirect=true" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/DrishtiKori" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap reveal-el">
+      <span class="eyebrow">about</span>
+      <h2 class="section-title">Range across ML and analytics engineering</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I work across the full data lifecycle — cleaning messy datasets, engineering features that actually move a model's score, tuning classifiers with <strong>GridSearchCV</strong> and stratified cross-validation, and designing the warehouses that let that work reach a dashboard. My projects range from a <strong>94.74% F1-score</strong> fraud classifier to a <strong>5-table star-schema</strong> warehouse built for executive reporting on 10,999 shipment records.</p>
+          <p>I have completed my <strong>BCA at Tilak Maharashtra Vidyapeeth, Pune</strong> (CGPA 8.07, 2026), backed by a Data Science &amp; Machine Learning Master's Program with <strong>Simplilearn, in collaboration with IBM</strong>. Comfortable in Python and SQL day to day, with Tableau for the last mile of communicating results.</p>
+        </div>
+        <div class="facts">
+          <dl>
+            <div class="row"><dt>LOCATION</dt><dd>Mumbai, India</dd></div>
+            <div class="row"><dt>FOCUS</dt><dd>ML &amp; Analytics Engineering</dd></div>
+            <div class="row"><dt>CORE STACK</dt><dd>Python · SQL</dd></div>
+            <div class="row"><dt>EDUCATION</dt><dd>BCA, 2026</dd></div>
+            <div class="row"><dt>OPEN TO</dt><dd>Data / ML roles</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" style="background:var(--paper-alt);">
+    <div class="wrap reveal-el">
+      <span class="eyebrow">projects</span>
+      <h2 class="section-title">Selected work</h2>
+
+      <article class="project-card">
+        <div class="project-top">
+          <div class="project-title">Instagram Fake Account Detection</div>
+          <div class="metric-badge">94.74% val F1-score</div>
+        </div>
+        <div class="tech-row">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Scikit-learn</span>
+          <span class="tech-pill">Pandas</span>
+          <span class="tech-pill">Random Forest</span>
+          <span class="tech-pill">GridSearchCV</span>
+        </div>
+        <ul>
+          <li>Built a classifier to separate fake from genuine Instagram accounts using engineered behavioral and profile features.</li>
+          <li>Tuned a Random Forest model via GridSearchCV, reaching a 94.74% validation F1-score.</li>
+          <li>Ran feature importance analysis to keep the model interpretable and improve prediction accuracy.</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <div class="project-title">Personalized Healthcare Recommendation System</div>
+          <div class="metric-badge">90.25% accuracy</div>
+        </div>
+        <div class="tech-row">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Pandas</span>
+          <span class="tech-pill">NumPy</span>
+          <span class="tech-pill">Scikit-learn</span>
+        </div>
+        <ul>
+          <li>Built an end-to-end ML pipeline for personalized healthcare recommendations, covering EDA, feature selection, and preprocessing.</li>
+          <li>Tuned Logistic Regression and Random Forest models using GridSearchCV with stratified k-fold cross-validation.</li>
+          <li>Reached 90.25% accuracy and an 89.75% macro F1-score; selected Logistic Regression as the final production model.</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <div class="project-title">E-Commerce Shipment Analytics</div>
+          <div class="metric-badge">0% nulls / duplicates</div>
+        </div>
+        <div class="tech-row">
+          <span class="tech-pill">SQL</span>
+          <span class="tech-pill">Google BigQuery</span>
+          <span class="tech-pill">Data Modeling</span>
+        </div>
+        <ul>
+          <li>Designed a 5-table star-schema warehouse in BigQuery for a 10,999-record e-commerce shipment dataset.</li>
+          <li>Cleaned and validated raw data before transforming it into a query-optimized dimensional model.</li>
+          <li>Enabled faster SQL-based analysis of shipping performance and customer satisfaction for executive reporting.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap reveal-el">
+      <span class="eyebrow">skills</span>
+      <h2 class="section-title">Stack, as a schema</h2>
+      <div class="schema-grid">
+
+        <div class="schema-card">
+          <div class="schema-head">languages</div>
+          <div class="schema-rows">
+            <div class="schema-row"><span>Python</span><span class="type">core</span></div>
+            <div class="schema-row"><span>SQL</span><span class="type">core</span></div>
+          </div>
+        </div>
+
+        <div class="schema-card">
+          <div class="schema-head">tools_frameworks</div>
+          <div class="schema-rows">
+            <div class="schema-row"><span>Pandas</span><span class="type">lib</span></div>
+            <div class="schema-row"><span>NumPy</span><span class="type">lib</span></div>
+            <div class="schema-row"><span>Scikit-learn</span><span class="type">lib</span></div>
+            <div class="schema-row"><span>Matplotlib / Seaborn</span><span class="type">viz</span></div>
+            <div class="schema-row"><span>Jupyter Notebook</span><span class="type">env</span></div>
+            <div class="schema-row"><span>Git / GitHub</span><span class="type">vcs</span></div>
+            <div class="schema-row"><span>Tableau</span><span class="type">viz</span></div>
+          </div>
+        </div>
+
+        <div class="schema-card">
+          <div class="schema-head">databases</div>
+          <div class="schema-rows">
+            <div class="schema-row"><span>MySQL</span><span class="type">rdbms</span></div>
+            <div class="schema-row"><span>BigQuery</span><span class="type">warehouse</span></div>
+          </div>
+        </div>
+
+        <div class="schema-card">
+          <div class="schema-head">ai_tools</div>
+          <div class="schema-rows">
+            <div class="schema-row"><span>ChatGPT</span><span class="type">assist</span></div>
+            <div class="schema-row"><span>Claude</span><span class="type">assist</span></div>
+            <div class="schema-row"><span>Prompt Engineering</span><span class="type">skill</span></div>
+          </div>
+        </div>
+
+        <div class="schema-card">
+          <div class="schema-head">methods</div>
+          <div class="schema-rows">
+            <div class="schema-row"><span>Data Cleaning &amp; EDA</span><span class="type">process</span></div>
+            <div class="schema-row"><span>Feature Engineering</span><span class="type">process</span></div>
+            <div class="schema-row"><span>Hyperparameter Tuning</span><span class="type">ml</span></div>
+            <div class="schema-row"><span>Cross Validation</span><span class="type">ml</span></div>
+            <div class="schema-row"><span>Model Evaluation</span><span class="type">ml</span></div>
+            <div class="schema-row"><span>Predictive Analytics</span><span class="type">ml</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="education" style="background:var(--paper-alt);">
+    <div class="wrap reveal-el">
+      <span class="eyebrow">education &amp; certificates</span>
+      <h2 class="section-title">Background</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date">2025</div>
+          <div class="tl-title">Master's Program in Data Science — Simplilearn, in collaboration with IBM</div>
+          <div class="tl-extra">Coursework: Python, SQL, Machine Learning, Tableau, Generative AI, Prompt Engineering, ChatGPT.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">2026</div>
+          <div class="tl-title">Bachelor of Computer Applications (BCA)</div>
+          <div class="tl-sub">Tilak Maharashtra Vidyapeeth, Pune · CGPA 8.07</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Higher Secondary Certificate</div>
+          <div class="tl-title">Guru Nanak Khalsa College, Matunga</div>
+          <div class="tl-sub">82.33%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <span class="eyebrow">contact</span>
+    <h2>Let's talk about a role.</h2>
+    <p>Open to data and ML opportunities — happy to walk through any project in more depth or share code and notebooks directly.</p>
+    <div class="contact-links">
+      <a href="mailto:drishtikori4@gmail.com">✉ drishtikori4@gmail.com</a>
+      <a href="tel:+919867480917">☎ +91 98674 80917</a>
+      <a href="https://www.linkedin.com/in/drishti-kori/?skipRedirect=true" target="_blank" rel="noopener">in/ LinkedIn</a>
+      <a href="https://github.com/DrishtiKori" target="_blank" rel="noopener">⌥ GitHub</a>
+    </div>
+    <div class="foot-bottom">
+      <span>-- end of query</span>
+      <span>Drishti Kori · Mumbai, India</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Typewriter hero line
+  (function(){
+    var text = "SELECT name, focus FROM engineers WHERE stack IN ('python','sql','ml');";
+    var el = document.getElementById('typed');
+    var heroName = document.getElementById('hero-name');
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if(reduced){
+      el.textContent = text;
+      heroName.classList.add('reveal');
+      return;
+    }
+
+    var i = 0;
+    function tick(){
+      if(i <= text.length){
+        el.textContent = text.slice(0, i);
+        i++;
+        setTimeout(tick, 18);
+      } else {
+        heroName.classList.add('reveal');
+      }
+    }
+    tick();
+  })();
+
+  // Scroll reveal
+  (function(){
+    var items = document.querySelectorAll('.reveal-el');
+    if(!('IntersectionObserver' in window)){
+      items.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    items.forEach(function(el){ obs.observe(el); });
+  })();
+</script>
+
+</body>
+</html>
